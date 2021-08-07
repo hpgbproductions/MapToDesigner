@@ -1,0 +1,9 @@
+newmtl PartMaterial(Clone)
+Kd 1 1 1
+map_Kd texture.Aircraft_export.png
+illum 2
+
+newmtl DesignerPartSelected(Clone)
+Kd 0.968357 1 0.4264706
+illum 2
+

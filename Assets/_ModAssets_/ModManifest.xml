@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="25339529-54d7-45d4-b9fd-70d6cb8f05bf">
+  <Mod name="Map To Designer" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-08-07T14:41:41.1985823Z" apiVersion="1.0.0.0" description="Loads a mod map into the designer.">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="MapToDesigner" path="Assets/_ModAssets_/MapToDesigner.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/Supply/Aircraft_model/Aircraft_export.obj" />
+      <Asset path="Assets/Supply/arrowMaterial.mat" />
+      <Asset path="Assets/Supply/arrowMouseDown.mat" />
+      <Asset path="Assets/Supply/arrowMouseOver.mat" />
+    </Assets>
+    <MaterialShaderMap>
+      <Material name="arrowMaterial" shader="Standard" />
+      <Material name="arrowMouseDown" shader="Standard" />
+      <Material name="arrowMouseOver" shader="Standard" />
+    </MaterialShaderMap>
+    <Assemblies>
+      <Assembly name="MapToDesigner-Assembly-CSharp.dll" path="Assets/_ModAssets_/MapToDesigner-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects>
+          <PersistentObject objectName="MapToDesigner" />
+        </PersistentObjects>
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>

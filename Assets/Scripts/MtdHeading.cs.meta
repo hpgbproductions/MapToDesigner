@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 79ed8190018b41c4da4c3e16f9b3571e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - MapToDesigner: {instanceID: 0}
+  - MatStandard: {fileID: 2100000, guid: 5ce150ba066ccf443aa229c042ea4379, type: 2}
+  - MatMouseOver: {fileID: 2100000, guid: 6bf54bf40cba9e94c8863fe4fa0b1e34, type: 2}
+  - MatMouseDown: {fileID: 2100000, guid: b5070e1bf0b55634e98c817fbc7c72a8, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
